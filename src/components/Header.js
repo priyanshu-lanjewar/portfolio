@@ -64,7 +64,7 @@ function Header(){
                 <Text mr="10px" color={isDark ? 'black' : 'white'} alignSelf="center">📍 Maharashtra,India</Text>
                 <Flex mb="10px" padding="5px" alignSelf={isNotSmallerScreen ? "" : "center"} rounded="xl" direction="row" mt={4} bg={isDark ? 'blue.200' : 'blue.900'} h="30vh" w="30vh" justify="center">
                 &nbsp;<IconButton  bg={isDark ?"blue.900":"white"} icon={<FaGithub/>} isRound = "true" onClick={()=> window.open("https://github.com/priyanshu-lanjewar")}/>
-                &nbsp;<IconButton  bg={isDark ?"blue.900":"white"} icon={<FaLinkedin/>} isRound = "true" onClick={()=> window.open("https://www.linkedin.com/in/priyanshu-lanjewar-2092a51b1")}/>
+                &nbsp;<IconButton  bg={isDark ?"blue.900":"white"} icon={<FaLinkedin/>} isRound = "true" onClick={()=> window.open("https://www.linkedin.com/in/priyanshu-lanjewar")}/>
                 &nbsp;<IconButton  bg={isDark ?"blue.900":"white"} icon={<FaEnvelope/>} isRound = "true" onClick={()=> window.open("mailto:priyanshu.lanjewar@yahoo.com")}/>
                 &nbsp;<IconButton  bg={isDark ?"blue.900":"white"} icon={<FaFacebookF/>} isRound = "true" onClick={()=> window.open("https://www.facebook.com/pwl22")}/>
                 &nbsp;<IconButton  bg={isDark ?"blue.900":"white"} icon={<FaInstagram/>} isRound = "true" onClick={()=> window.open("https://instagram.com/_.dugggu._")}/>
