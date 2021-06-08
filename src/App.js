@@ -38,7 +38,7 @@ function App() {
      <Header id="aa"></Header>
      <Stacks></Stacks>
      <Programing></Programing>
-     <Box mt="25px"p="5px"
+     <Box mt="20px"p="7px"
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')} >
      
